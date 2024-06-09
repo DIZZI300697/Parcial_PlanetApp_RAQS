@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planet_names">
+        <item>Tierra</item>
+        <item>Marte</item>
+        <item>Júpiter</item>
+        <item>Saturno</item>
+        <item>Urano</item>
+        <item>Neptuno</item>
+        <item>Mercurio</item>
+        <item>Venus</item>
+    </string-array>
+
+    <string-array name="planet_descriptions">
+        <item>Planeta azul y verde, hogar de la humanidad.</item>
+        <item>Planeta rojo, conocido como el planeta rojo.</item>
+        <item>Planeta gigante gaseoso, el más grande del sistema solar.</item>
+        <item>Planeta con anillos impresionantes.</item>
+        <item>Planeta gigante gaseoso con una inclinación extrema.</item>
+        <item>Planeta azul profundo, conocido por sus fuertes vientos.</item>
+        <item>El planeta más cercano al sol, con temperaturas extremas.</item>
+        <item>Planeta brillante, conocido como el gemelo de la Tierra.</item>
+    </string-array>
+
+    <integer-array name="planet_images">
+        <item>@drawable/earth</item>
+        <item>@drawable/mars</item>
+        <item>@drawable/jupiter</item>
+        <item>@drawable/saturn</item>
+        <item>@drawable/uranus</item>
+        <item>@drawable/neptune</item>
+        <item>@drawable/mercury</item>
+        <item>@drawable/venus</item>
+    </integer-array>
+</resources>
+

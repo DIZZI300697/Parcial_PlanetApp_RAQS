@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PlanetApp</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="planets">Planetas</string>
+    <string name="close">Cerrar</string>
+</resources>
