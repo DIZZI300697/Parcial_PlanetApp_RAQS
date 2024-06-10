@@ -12,14 +12,14 @@
     </string-array>
 
     <string-array name="planet_descriptions">
-        <item>Planeta azul y verde, hogar de la humanidad.</item>
-        <item>Planeta rojo, conocido como el planeta rojo.</item>
-        <item>Planeta gigante gaseoso, el más grande del sistema solar.</item>
-        <item>Planeta con anillos impresionantes.</item>
-        <item>Planeta gigante gaseoso con una inclinación extrema.</item>
-        <item>Planeta azul profundo, conocido por sus fuertes vientos.</item>
-        <item>El planeta más cercano al sol, con temperaturas extremas.</item>
-        <item>Planeta brillante, conocido como el gemelo de la Tierra.</item>
+        <item>La Tierra es nuestro hogar, el único planeta conocido por albergar vida. Con una atmósfera rica en oxígeno y agua en estado líquido en su superficie, la Tierra es un oasis de biodiversidad en el vasto cosmos. Sus paisajes van desde las profundidades del océano hasta las cimas de las montañas más altas, proporcionando un hábitat para innumerables formas de vida.</item>
+        <item>Marte, el cuarto planeta desde el Sol, es un mundo árido y rocoso con una delgada atmósfera compuesta principalmente de dióxido de carbono. Se cree que en el pasado pudo haber tenido ríos y océanos de agua líquida en su superficie. Actualmente, Marte está marcado por cañones, montañas y llanuras desérticas, con evidencia de actividad volcánica y vientos marcianos.</item>
+        <item>Júpiter, el gigante gaseoso más grande del sistema solar, es conocido por su atmósfera turbulenta y sus impresionantes bandas de nubes. Es el quinto planeta desde el Sol y tiene una gran mancha roja, una tormenta gigante que ha estado activa durante siglos. Júpiter también tiene una amplia colección de lunas, incluyendo las cuatro lunas galileanas: Ío, Europa, Ganimedes y Calisto.</item>
+        <item>Saturno, famoso por sus espectaculares anillos, es el sexto planeta desde el Sol. Está compuesto principalmente de gases como hidrógeno y helio. Sus anillos están formados por innumerables partículas de hielo y roca, que crean un espectáculo celestial único. Saturno también tiene una diversa variedad de lunas, incluyendo Titán, que tiene una atmósfera densa y lagos de metano y etano en su superficie.</item>
+        <item>Urano, el séptimo planeta desde el Sol, es un gigante de hielo con un color característico de azul verdoso. Su eje de rotación está inclinado casi perpendicular a su órbita, lo que le otorga un movimiento de giro único. Urano tiene una atmósfera compuesta principalmente de hidrógeno, helio y metano, y tiene una serie de anillos y lunas.</item>
+        <item>Neptuno, el octavo y último planeta del sistema solar, es otro gigante de hielo. Tiene una atmósfera activa con vientos extremadamente veloces y una gran mancha oscura similar a la de Júpiter. Neptuno también tiene una serie de lunas, incluyendo Tritón, que tiene una órbita retrógrada y puede ser un objeto capturado por la gravedad del planeta.</item>
+        <item>Mercurio, el planeta más cercano al Sol, es un mundo rocoso y desolado. Su superficie está cubierta de cráteres y montañas, sin apenas atmósfera para protegerlo. Debido a su proximidad al Sol, las temperaturas en Mercurio pueden alcanzar los extremos, desde más de 400°C durante el día hasta -180°C durante la noche.</item>
+        <item>Venus, el segundo planeta desde el Sol, es conocido como el "gemelo" de la Tierra debido a su tamaño similar. Sin embargo, su atmósfera es extremadamente densa y tóxica, compuesta principalmente de dióxido de carbono y nubes de ácido sulfúrico. Las temperaturas en Venus son abrasadoras, llegando a ser las más altas de cualquier planeta en el sistema solar.</item>
     </string-array>
 
     <integer-array name="planet_images">

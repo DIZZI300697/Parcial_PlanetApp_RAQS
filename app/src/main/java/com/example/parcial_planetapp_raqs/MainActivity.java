@@ -25,27 +25,31 @@ public class MainActivity extends AppCompatActivity {
         registerButton = findViewById(R.id.registerButton);
 
         loginButton.setOnClickListener(v -> {
-            String user = username.getText().toString();
-            String pass = password.getText().toString();
+            String userInput = username.getText().toString();
+            String passInput = password.getText().toString();
 
-            if (validateLogin(user, pass)) {
-                Intent intent = new Intent(MainActivity.this, PlanetListActivity.class);
-                intent.putExtra("username", user);
-                startActivity(intent);
+            if (validateLogin(userInput, passInput)) {
+                Intent intentLogin = new Intent(MainActivity.this, PlanetListActivity.class);
+                intentLogin.putExtra("username", userInput);
+                startActivity(intentLogin);
             } else {
                 loginAttempts++;
                 if (loginAttempts >= 3) {
                     loginButton.setEnabled(false);
-                    new Handler().postDelayed(() -> loginButton.setEnabled(true), 5000);
+                    Toast.makeText(MainActivity.this, "Demasiados intentos fallidos. Inténtelo de nuevo en 5 segundos.", Toast.LENGTH_SHORT).show();
+                    new Handler().postDelayed(() -> {
+                        loginButton.setEnabled(true);
+                        loginAttempts = 0;
+                    }, 5000);
                 } else {
-                    Toast.makeText(MainActivity.this, "Credenciales incorrectas", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Credenciales incorrectas. Intento " + loginAttempts + " de 3.", Toast.LENGTH_SHORT).show();
                 }
             }
         });
 
         registerButton.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
-            startActivity(intent);
+            Intent intentRegister = new Intent(MainActivity.this, RegisterActivity.class);
+            startActivity(intentRegister);
         });
     }
 

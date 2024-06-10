@@ -15,6 +15,7 @@ public class PlanetListActivity extends AppCompatActivity {
     private String[] planetNames;
     private String[] planetDescriptions;
     private TypedArray planetImages;
+    private TextView usernameTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +23,14 @@ public class PlanetListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_planet_list);
 
         planetList = findViewById(R.id.planetList);
+        usernameTextView = findViewById(R.id.usernameTextView);
+
+        Intent intent = getIntent();
+        String username = intent.getStringExtra("username");
+        if (username != null) {
+            usernameTextView.setText(username);
+        }
+
         planetNames = getResources().getStringArray(R.array.planet_names);
         planetDescriptions = getResources().getStringArray(R.array.planet_descriptions);
         planetImages = getResources().obtainTypedArray(R.array.planet_images);

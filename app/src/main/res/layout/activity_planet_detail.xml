@@ -4,28 +4,42 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
     android:padding="16dp">
 
     <TextView
         android:id="@+id/planetName"
         android:textSize="24sp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="31dp"
+        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
     <ImageView
         android:id="@+id/planetImage"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:scaleType="centerInside"/>
+        android:layout_width="360dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="70dp"
+        android:scaleType="centerInside" />
 
     <TextView
         android:id="@+id/planetDescription"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_width="336dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
 
     <Button
-        android:text="@string/close"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/blue"
         android:onClick="closeDetail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:text="@string/close" />
 </LinearLayout>
